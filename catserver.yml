@@ -1,0 +1,22 @@
+async:
+  hopper: false
+  entityMove: true
+  chunkGen: false
+  modMob: false
+  entityAI: true
+  asyncPoolNum: 3
+check:
+  threadLag: true
+world:
+  keepSpawnInMemory: false
+  enableSkipTick: true
+  worldGen:
+    disableForgeGenWorld:
+    - xxxxxxx
+  enableCapture: true
+  worldGenMaxTick: 15
+maxTickTime:
+  worldGen: 15
+disableUpdateGameProfile: true
+fakePlayer:
+  eventPass: false
